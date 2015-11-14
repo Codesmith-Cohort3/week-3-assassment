@@ -5,8 +5,13 @@ var StyleSheet = require('react-style');
 var FeedItem = React.createClass({
   render: function() {
     // put render logic here
+    var urls = this.props.photos
+
+
+
     return (
       <div styles={styles.container}>
+        
       </div>
     );
   }
